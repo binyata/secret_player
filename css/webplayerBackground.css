@@ -1,0 +1,9 @@
+body {
+	min-width: 600px;
+}
+.dynamicdivClass{
+	border-style: solid;
+}
+.playerButtons{
+	float: right;
+}

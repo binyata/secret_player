@@ -1,0 +1,20 @@
+{
+  "name": "Secret Player Toolbar",
+  "description": "Displays the live log with the http requests headers",
+  "version": "0.1",
+  "permissions": [
+    "debugger",
+    "tabs",
+    "notifications",
+    "http://*/",
+    "https://*/",
+    "<all_urls>",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "homePage.html",
+    "default_icon": "logo/icon.png",
+    "default_title": "Secret Player Toolbar"
+  },
+  "manifest_version": 2
+}
